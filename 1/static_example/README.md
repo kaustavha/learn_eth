@@ -3,6 +3,9 @@
 ## Requirements:
   - Chrome browser + meta-mask plugin
   - Nodejs
+  
+## Setup:
+`npm install && npm start`
 
 ## Plan:
  - Brief intro to ethereum
@@ -28,6 +31,6 @@
    https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI#example-javascript-usage
 
 - App:
- - Explain bootup via web3
+ -- Explain bootup via web3
    https://github.com/ethereum/wiki/wiki/JavaScript-API
- - Walk through basic contract
+ -- Walk through basic contract
