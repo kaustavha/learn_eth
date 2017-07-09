@@ -1,0 +1,16 @@
+{
+  "name": "learn_eth_1",
+  "author": "kaustavha",
+  "version": "1.0.0",
+  "description": "Eth static example w/ basic greeter contract",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaustavha/learn_eth.git"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "http-server public"
+  },
+}
