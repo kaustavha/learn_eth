@@ -1,5 +1,11 @@
 # Eth tut 1
 
+# Intro
+
+This is a demonstration of how ethereum can be used to run serverless dapps in the simplest form with the least amount of code, tooling or setup.
+In this example we'll be publishing a pre-written greeter contract which responds with the greeting phrase it is bootstrapped with. Then we'll attempt to call the greeting contracts greet function from our front-end js and render it. 
+Quick learning assignment: Implement front-end js+html to change the greeting phrase in the greeter contract. 
+
 ## Requirements:
   - Chrome browser + meta-mask plugin
   - Nodejs
@@ -26,6 +32,7 @@
    https://solidity.readthedocs.io/en/develop/
    https://github.com/fivedogit/solidity-baby-steps/tree/master/contracts
    http://solidity.readthedocs.io/en/develop/solidity-by-example.html
+   greeter contract used: https://github.com/fivedogit/solidity-baby-steps/blob/master/contracts/05_greeter.sol
 
  - Explain contract ABI
    https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI#example-javascript-usage
