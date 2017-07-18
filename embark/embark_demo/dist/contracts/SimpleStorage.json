@@ -1,0 +1,75 @@
+{
+  "contract_name": "SimpleStorage",
+  "code": "6060604052341561000c57fe5b60405160208061011383398101604052515b60008190555b505b60df806100346000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632a1afcd98114604d57806360fe47b114606c5780636d4ce63c14607e575bfe5b3415605457fe5b605a609d565b60408051918252519081900360200190f35b3415607357fe5b607c60043560a3565b005b3415608557fe5b605a60ac565b60408051918252519081900360200190f35b60005481565b60008190555b50565b6000545b905600a165627a7a72305820c2af8f2bfb5ffdb8fd12844daf86324c42de338ebe84134a2cd5ce161e44ac0c0029",
+  "runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632a1afcd98114604d57806360fe47b114606c5780636d4ce63c14607e575bfe5b3415605457fe5b605a609d565b60408051918252519081900360200190f35b3415607357fe5b607c60043560a3565b005b3415608557fe5b605a60ac565b60408051918252519081900360200190f35b60005481565b60008190555b50565b6000545b905600a165627a7a72305820c2af8f2bfb5ffdb8fd12844daf86324c42de338ebe84134a2cd5ce161e44ac0c0029",
+  "real_runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632a1afcd98114604d57806360fe47b114606c5780636d4ce63c14607e575bfe5b3415605457fe5b605a609d565b60408051918252519081900360200190f35b3415607357fe5b607c60043560a3565b005b3415608557fe5b605a60ac565b60408051918252519081900360200190f35b60005481565b60008190555b50565b6000545b905600a165627a7a72305820c2af8f2bfb5ffdb8fd12844daf86324c42de338ebe84134a2cd5ce161e44ac0c0029",
+  "swarm_hash": "c2af8f2bfb5ffdb8fd12844daf86324c42de338ebe84134a2cd5ce161e44ac0c",
+  "gas_estimates": {
+    "creation": [
+      20141,
+      44600
+    ],
+    "external": {
+      "get()": 400,
+      "set(uint256)": 20144,
+      "storedData()": 355
+    },
+    "internal": {}
+  },
+  "function_hashes": {
+    "get()": "6d4ce63c",
+    "set(uint256)": "60fe47b1",
+    "storedData()": "2a1afcd9"
+  },
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "storedData",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    }
+  ]
+}

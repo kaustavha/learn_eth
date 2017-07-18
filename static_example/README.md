@@ -13,6 +13,7 @@ Quick learning assignment: Implement front-end js+html to change the greeting ph
   
 ## Setup:
 `npm install && npm start`
+Switch to the rinkeby testnet using metamask and go to the browser address and you should see "Data: Hello world from rinkeby!"
 
 ## Plan:
  - Brief intro to ethereum    
