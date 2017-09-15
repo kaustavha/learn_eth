@@ -40,6 +40,6 @@ Switch to the rinkeby testnet using metamask and go to the browser address and y
    https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI#example-javascript-usage  
 
 - App:   
- -- Explain bootup via web3    
+ - Explain bootup via web3    
    https://github.com/ethereum/wiki/wiki/JavaScript-API    
- -- Walk through basic contract   
+ - Walk through basic contract   
