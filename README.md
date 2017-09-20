@@ -15,6 +15,17 @@ Quick learning assignment: Implement front-end js+html to change the greeting ph
 `npm install && npm start`
 Switch to the rinkeby testnet using metamask and go to the browser address and you should see "Data: Hello world from rinkeby!"
 
+### For truffle local dev:
+```
+npm install -g truffle ethereumjs-testrpc
+```
+Run testrpc server:
+`testrpc`	
+Truffle commands:  
+`truffle compile`	
+`truffle migrate`
+
+
 ## Plan:
  - Brief intro to ethereum    
    http://whatthefuckisethereum.com/   
