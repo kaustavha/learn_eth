@@ -7,6 +7,8 @@ In this example we'll be publishing a pre-written greeter contract which respond
 
 Quick learning assignment: Implement front-end js+html to change the greeting phrase in the greeter contract. 
 
+![architecture](https://cdn-images-1.medium.com/max/1600/1*y7Cdz1uGBGLxZ3ekIE13RA.png)
+
 ## Requirements:
   - Chrome browser + meta-mask plugin
   - Nodejs
