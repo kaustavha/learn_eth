@@ -1,16 +1,16 @@
 {
   "name": "learn_eth_1",
   "author": "kaustavha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eth static example w/ basic greeter contract",
   "repository": {
     "type": "git",
     "url": "https://github.com/kaustavha/learn_eth.git"
   },
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "browser-sync": "^2.18.13"
   },
   "scripts": {
-    "start": "http-server"
+    "start": "browser-sync start --server --files 'index.html assets/*'"
   }
 }
