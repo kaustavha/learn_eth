@@ -8,6 +8,11 @@ contract Greeter {         // The contract definition. A constructor of the same
     address creator;     // At first, an empty "address"-type variable of the name "creator". Will be set in the constructor.
     string greeting;     // At first, an empty "string"-type variable of the name "greeting". Will be set in constructor and can be changed.
 
+    modifier isCreator {
+        require(msg.sender == creator); // only allow this action if the account sending the signal is the creator
+        _; // Run the rest of the function that used the modifier
+    }
+
     function Greeter(string _greeting) public payable {
         // The constructor. It accepts a string input and saves it to the contract's "greeting" variable.
         creator = msg.sender;
@@ -23,8 +28,8 @@ contract Greeter {         // The contract definition. A constructor of the same
     }
     
     // view is alias for constant and appears more in docs
-    function getBlockNumber() public view returns (uint) { 
-    // this doesn't have anything to do with the act of greeting                                                    
+    function getBlockNumber() public view returns (uint) {
+    // this doesn't have anything to do with the act of greeting
     // just demonstrating return of some global variable
         return block.number;
     }
@@ -36,8 +41,7 @@ contract Greeter {         // The contract definition. A constructor of the same
      /**********
      Standard kill() function to recover funds 
      **********/
-    function kill() external {
-        if (msg.sender == creator)  // only allow this action if the account sending the signal is the creator
-            selfdestruct(creator);       // kills this contract and sends remaining funds back to creator
+    function kill() external isCreator {
+        selfdestruct(creator);          // kills this contract and sends remaining funds back to creator
     }
 }
