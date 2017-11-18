@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ethereum</title>
+    <h1>Ethereum static demo</h1>
+  </head>
+  <body>
+    <p>Content:</p>
+  </body>
+  <script src="assets/web3.min.js"></script>
+  <script src="assets/ABI.js"></script>
+  <script>
+    // Create JS API from contract ABI & bytecode located on rinkeby
+    // ABI is defined in <script src="assets/ABI.js">
+    var rinkebyAddress = '0xa016a2a7760f7779e5f0c1ae8788415547c67caa';
+    function main() {
+      greeterContract = window.greeterContract;
+        // See what our greeter says
+        greeterContract.greet((err, data) => {
+          print("Errors: " + err);
+          print("Data: " + data);
+        });
+
+        greeterContract.getBlockNumber((e,d) => {
+          print("Block number: " + d);
+        });
+    }
+    
+    function print(str) {
+      document.body.innerHTML += "<pre>" + str + "</pre>";
+    }
+
+    // Wait for load event to get metamask injected web3
+    window.addEventListener('load', function() {
+      // Checking if Web3 has been injected by the browser (Mist/MetaMask)
+      if (typeof web3 !== 'undefined') {
+        // Use Mist/MetaMask's provider
+        window.web3 = new Web3(web3.currentProvider);
+        if (window.web3.isConnected()) {
+          print("Web3 connected");
+        }
+      } else {
+        print('No web3? You should consider trying MetaMask!');
+        // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
+        window.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+      }
+      window.greeterContract = web3.eth.contract(ABI).at(rinkebyAddress);
+      main();
+    });
+  </script>
+</html>

@@ -7,17 +7,29 @@ In this example we'll be publishing a pre-written greeter contract which respond
 
 Quick learning assignment: Implement front-end js+html to change the greeting phrase in the greeter contract. 
 
+![architecture](https://cdn-images-1.medium.com/max/1600/1*y7Cdz1uGBGLxZ3ekIE13RA.png)
+
 ## Requirements:
   - Chrome browser + meta-mask plugin
   - Nodejs
   
 ## Setup:
-`npm install && npm start`
+Run: 
+`npm install && npm start`  
 Switch to the rinkeby testnet using metamask and go to the browser address and you should see "Data: Hello world from rinkeby!"
+
+### For truffle local dev:
+```
+npm install -g truffle ethereumjs-testrpc
+```
+Run testrpc server: `testrpc`  
+Truffle commands:  
+`truffle compile`	
+`truffle migrate`
 
 ## Plan:
  - Brief intro to ethereum    
-   http://whatthefuckisethereum.com/   
+   https://whatthefuckisethereum.com/   
    https://www.slideshare.net/gavofyork/so-now-weve-built-ethereum-wtf-is-it  
 
  - Explain rinkeby test net, PoA, story of other nets   
@@ -33,13 +45,12 @@ Switch to the rinkeby testnet using metamask and go to the browser address and y
  - Explain solidity   
    https://solidity.readthedocs.io/en/develop/     
    https://github.com/fivedogit/solidity-baby-steps/tree/master/contracts   
-   http://solidity.readthedocs.io/en/develop/solidity-by-example.html    
+   https://solidity.readthedocs.io/en/develop/solidity-by-example.html    
    greeter contract used: https://github.com/fivedogit/solidity-baby-steps/blob/master/contracts/05_greeter.sol  
 
  - Explain contract ABI   
    https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI#example-javascript-usage  
 
-- App:   
- -- Explain bootup via web3    
+ - Explain bootup via web3    
    https://github.com/ethereum/wiki/wiki/JavaScript-API    
- -- Walk through basic contract   
+ - Walk through basic contract   
