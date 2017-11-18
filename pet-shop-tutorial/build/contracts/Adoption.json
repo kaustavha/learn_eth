@@ -1,0 +1,65 @@
+{
+  "contract_name": "Adoption",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getAdopters",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[16]"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "adopters",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "petId",
+          "type": "uint256"
+        }
+      ],
+      "name": "adopt",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b61025d8061001f6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633de4eb17811461005357806343ae80d3146100a05780638588b2c5146100df575b600080fd5b341561005e57600080fd5b610066610107565b604051808261020080838360005b8381101561008d5780820151818401525b602001610074565b5050505090500191505060405180910390f35b34156100ab57600080fd5b6100b660043561015f565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156100ea57600080fd5b6100f5600435610193565b60405190815260200160405180910390f35b61010f610208565b600060106102006040519081016040529190610200830182845b815473ffffffffffffffffffffffffffffffffffffffff168152600190910190602001808311610129575b505050505090505b90565b6000816010811061016c57fe5b0160005b915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008082101580156101a65750600f8211155b15156101b157600080fd5b33600083601081106101bf57fe5b0160005b6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508190505b919050565b6102006040519081016040526010815b60008152600019909101906020018161021857905050905600a165627a7a72305820d54fd6f463cdf08eafd0b560d4b4d6d4c9055d4f3209b07c89bae859bbdb62980029",
+  "networks": {
+    "1504503263268": {
+      "events": {},
+      "links": {},
+      "address": "0x35395c0dc2ec8eb885b339934c52083c58bc49b8",
+      "updated_at": 1504504407313
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1504504407313
+}
