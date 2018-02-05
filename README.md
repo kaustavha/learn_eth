@@ -1,20 +1,21 @@
 # Eth tut 1
 
-# Intro
+# Intro for static_example
 
 This is a demonstration of how ethereum can be used to run serverless dapps in the simplest form with the least amount of code, tooling or setup.  
 In this example we'll be publishing a pre-written greeter contract which responds with the greeting phrase it is bootstrapped with. Then we'll attempt to call the greeting contracts greet function from our front-end js and render it.   
 
-Quick learning assignment: Implement front-end js+html to change the greeting phrase in the greeter contract. 
+Quick learning assignment: Implement front-end js+html to change the greeting phrase in the greeter contract.
 
 ![architecture](https://cdn-images-1.medium.com/max/1600/1*y7Cdz1uGBGLxZ3ekIE13RA.png)
 
 ## Requirements:
   - Chrome browser + meta-mask plugin
   - Nodejs
-  
+
 ## Setup:
-Run: 
+Run:
+`cd static_example`  
 `npm install && npm start`  
 Switch to the rinkeby testnet using metamask and go to the browser address and you should see "Data: Hello world from rinkeby!"
 
@@ -24,7 +25,7 @@ npm install -g truffle ethereumjs-testrpc
 ```
 Run testrpc server: `testrpc`  
 Truffle commands:  
-`truffle compile`	
+`truffle compile`
 `truffle migrate`
 
 ## Plan:
@@ -54,3 +55,6 @@ Truffle commands:
  - Explain bootup via web3    
    https://github.com/ethereum/wiki/wiki/JavaScript-API    
  - Walk through basic contract   
+
+## Note:
+There are other repositories in this folder with their own readmes and setup instructions and purpose

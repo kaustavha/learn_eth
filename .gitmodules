@@ -1,0 +1,6 @@
+[submodule "ENS_data_analysis"]
+	path = ENS_data_analysis
+	url = ./ENS_data_analysis/
+[submodule "ethwaterloo-bit"]
+	path = ethwaterloo-bit
+	url = ./ethwaterloo-bit/
