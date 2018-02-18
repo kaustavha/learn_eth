@@ -4,3 +4,6 @@
 [submodule "ENS_data_analysis"]
 	path = ENS_data_analysis
 	url = https://github.com/kaustavha/ENS_data_analysis.git
+[submodule "eth-lightShow-uottahack"]
+	path = eth-lightShow-uottahack
+	url = https://github.com/kaustavha/eth-lightShow-uottahack.git
