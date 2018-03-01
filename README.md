@@ -4,22 +4,22 @@ Repo for linking to different ethereum and blockchain experiments.
 
 # Index
 
-- ENS_data_analysis
+- ENS_data_analysis  
 ELK stack project for data analysis on name registration and events on the Ethereum Name Service. Requires a more robust distributed event aggregation service  
 
-- eth-lightShow-uottahack
+- eth-lightShow-uottahack  
 Art project from hackathon. 3D printed IoT device featuring arduino, LED lights, live multi-user interaction, nodeJs backend and ethereum integration for firing and storing events which affect the device. Requires a more IoT centric plasma sidechain or private chain. [Article](https://medium.com/@kaustavha/lightshow-ethereum-iot-device-uottahack-72b27f903545)  
 
-- ethwaterloo-bit
+- ethwaterloo-bit  
 Basic identity on the blockchain PoC. Allows easy login to dapps using current standard social networks like FB and creation of a federated onchain identity and migration of social networks and data while allowing account recovery in private key loss scenarios. Hopefully will act as a substrate layer for future onchain social networks. 
 
-- ico_example_1
+- ico_example_1  
 Example of a simplistic ICO for an interview
 
-- pet-shop-tut
+- pet-shop-tut  
 Truffle petshop tutorial. TODO: Create similiar one using MIT licensed ethersjs
 
-- static_example
+- static_example  
 Example of a static ethereum backed site for beginners workshops  
 
 # Eth tut 1
