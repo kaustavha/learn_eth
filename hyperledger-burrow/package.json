@@ -1,0 +1,14 @@
+{
+  "name": "@ibm/blockchain-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@monax/legacy-contracts": "^0.17.0"
+  }
+}
