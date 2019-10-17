@@ -26,6 +26,8 @@ export default function TransactionDetail(props) {
                 <TransactionBadge transaction={ tx.hash } />
             </h1>
             <hr/>
-            { table }
+            <table role="presentation">
+                { table }
+            </table>
         </div>);
 }

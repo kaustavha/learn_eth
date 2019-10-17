@@ -26,7 +26,7 @@ We use transactionBadge to show block hash. But this doesnt link to the correct 
 
 All values are in wei which is not very human readable.  
 
-Tabindex is used for accessibility.   
+Tabindex is used for accessibility. Should expand to others and use ARIA.   
 
 ## Testing
 ```
