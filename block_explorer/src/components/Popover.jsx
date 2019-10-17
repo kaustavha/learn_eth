@@ -22,7 +22,7 @@ export default function Popover(props) {
 
                 { children }
 
-                <Button emphasis="negative" onClick={ () => setOpened(false) } tabIndex={ 0 }>
+                <Button emphasis="negative" mode={"strong"} onClick={ () => setOpened(false) } tabIndex={ 0 }>
                     Close window
                 </Button>
             </Modal>
