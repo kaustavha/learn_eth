@@ -8,10 +8,6 @@
   justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .block {
   float: left;
   padding: 1vh;
@@ -22,19 +18,6 @@
 }
 .listedTransaction {
   margin: 1vh 4vh;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }
 
 .App,h1 {
