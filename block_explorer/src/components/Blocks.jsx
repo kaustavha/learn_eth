@@ -31,7 +31,7 @@ class Blocks extends React.Component {
     }
     render() {
         let blocks = this.state.blockList.map((blk, blknum) => {
-            return (<div className="floatLeft">
+            return (<div className="block">
                 <Block blk={ blk } blknum={ blknum } web3={ this.web3 } />
             </div>)
         })

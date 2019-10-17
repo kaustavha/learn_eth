@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #707785;
+  background-color: #7d818a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,9 @@
   height: 40vmin;
 }
 
-.floatLeft {
+.block {
   float: left;
+  padding: 1vh;
 }
 
 .blockTxFetchProgressBar {
@@ -34,4 +35,12 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.App,h1 {
+  font-size: 150%;
+}
+
+.App, p{
+  padding: 1vh;
 }

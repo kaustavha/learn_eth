@@ -7,7 +7,6 @@ npm start
 Navigate to `localhost:3000`.  
 
 # Info
-
 This is a basic front-end block explorer. 
 It requires a web3 object on window to work e.g. through metamask. 
 
@@ -17,15 +16,22 @@ You can view transactions that have any value, and all transactions with value i
 Furthermore you can get transaction details from a subsequent popover. 
 
 # Bugs/ todo
-Using popovers I think was a decent choice but theres a couple of bugs with the underlying modal component we use for it. 
-- it doesnt scroll window to its position when openened e.g. if we click to open a modal after scrolling down a long list of tx
-- if we close one modal, it closes all open modals. 
+Using popovers I think was a decent choice but theres a couple of bugs with the underlying modal component we use for it.  
+- it doesnt scroll window to its position when openened e.g. if we click to open a modal after scrolling down a long list of tx  
+- if we close one modal, it closes all open modals.  
   
 A loading screen might make sense since currently the app re-draws quite visibly.   
 
-All values are in wei which is not very human readable. 
+We use transactionBadge to show block hash. But this doesnt link to the correct etherscan link.  
+
+All values are in wei which is not very human readable.  
+
+Tabindex is used for accessibility.   
 
 ## Testing
+```
+npm test
+```
 Testing needs more work, more components tested etc
 Currently only a BlockTxValue sum component is tested and that the whole app renders. 
 

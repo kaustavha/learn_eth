@@ -3,7 +3,7 @@ import './App.css';
 import Web3 from 'web3';
 import { Main} from '@aragon/ui'
 import Blocks from "./components/Blocks";
-const TOTAL_BLOCKS = 3;
+const TOTAL_BLOCKS = 10;
 
 const App = () => {
   if (!window || window.web3 == undefined || window.web3 == null || !window.web3.currentProvider) {
