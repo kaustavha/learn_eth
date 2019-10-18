@@ -15,6 +15,10 @@ It'll calculate the value of blocks, and fetch associated transactions.
 You can view transactions that have any value, and all transactions with value in a details popover. 
 Furthermore you can get transaction details from a subsequent popover. 
 
+Uses aragorn/ui components. 
+
+Demo GIF: ![Demo gif](./blockExplorer.gif)  
+
 # Bugs/ todo
 Using popovers I think was a decent choice but theres a couple of bugs with the underlying modal component we use for it.  
 - it doesnt scroll window to its position when openened e.g. if we click to open a modal after scrolling down a long list of tx  
