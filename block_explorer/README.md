@@ -37,7 +37,8 @@ Tabindex is used for accessibility. Should expand to others and use ARIA.
 npm test
 ```
 Testing needs more work, more components tested etc
-Currently only a BlockTxValue sum component is tested and that the whole app renders. 
+Currently only a BlockTxValue sum component is tested and that the whole app renders. In can be assumed in a production grade app we'd want to test different inputs as well, range edges at least for internal components and invalid input as well for top level components.   
+A mocked web3 object and mock api should ideally be used as well to quickly test and build components and tested against its outputs.  
 
 # Create React app documentation
 
