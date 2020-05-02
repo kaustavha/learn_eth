@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  expires_on: 2020-05-02 17:09:52
+  strike_price: 9.99
+  opt_type: 
+  magic_number: MyString
+  contract_address: MyString
+
+two:
+  user: two
+  expires_on: 2020-05-02 17:09:52
+  strike_price: 9.99
+  opt_type: 
+  magic_number: MyString
+  contract_address: MyString

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @option.user_id %>
+</p>
+
+<p>
+  <strong>Expires on:</strong>
+  <%= @option.expires_on %>
+</p>
+
+<p>
+  <strong>Strike price:</strong>
+  <%= @option.strike_price %>
+</p>
+
+<p>
+  <strong>Opt type:</strong>
+  <%= @option.opt_type %>
+</p>
+
+<p>
+  <strong>Magic number:</strong>
+  <%= @option.magic_number %>
+</p>
+
+<p>
+  <strong>Contract address:</strong>
+  <%= @option.contract_address %>
+</p>
+
+<%= link_to 'Edit', edit_option_path(@option) %> |
+<%= link_to 'Back', options_path %>
